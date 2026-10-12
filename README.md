@@ -1,9 +1,9 @@
 # Cursor 简体中文汉化工具（cursor-zh）
 
-一键把 Cursor 的自研界面（侧边栏、设置页、命令面板、菜单、弹窗等）汉化为简体中文，**不改任何运行逻辑，可随时还原**。
+一键把 Cursor 的自研界面（侧边栏、设置页、命令面板、菜单、弹窗、MCP 管理页等）汉化为简体中文，**不改任何运行逻辑，可随时还原**。
 
-- 词表基于 **Cursor 3.24（Windows）** 实测提取，累计 **2000+ 处**替换
-- 每个替换位都经过**安全过滤**：比较位、枚举映射、逻辑字段、函数参数一律跳过
+- 词表基于 **Cursor 3.24（Windows）** 实测提取，双文件累计 **3400+ 处**替换
+- 每个替换位都经过**安全过滤**：比较位、枚举映射、逻辑字段、函数参数、nls 本地化位一律跳过
 - 自动备份英文原版，`--restore` 一键还原
 - 每次替换自动跑 `node --check` 语法验证，**语法不通过就不写入**
 
@@ -42,7 +42,9 @@ python hanhua.py --dry-run
 
 ## 工作原理
 
-目标文件：`resources\app\out\vs\workbench\workbench.glass.main.js`
+目标文件（两个，都会处理）：
+- `resources\app\out\vs\workbench\workbench.glass.main.js`
+- `resources\app\out\vs\workbench\workbench.desktop.main.js`（命令面板/设置条目等也分布在此文件）
 
 1. 读取词表 `words.json`（`global` 短词 + `anchor` 长句/锚定）
 2. 逐词查找显示位并替换，**只改引号内的显示文本**
