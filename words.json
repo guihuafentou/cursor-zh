@@ -409,7 +409,27 @@
   "Expires": "过期",
   "Renews": "续订于",
   "Cancel Subscription": "取消订阅",
-  "Manage Subscription": "管理订阅"
+  "Manage Subscription": "管理订阅",
+  "Split Tile Horizontally": "水平平铺分屏",
+  "About Cursor": "关于 Cursor",
+  "Update Cursor": "更新 Cursor",
+  "Light Theme": "浅色主题",
+  "Dark Theme": "深色主题",
+  "System Theme": "系统主题",
+  "High Contrast Theme": "高对比度主题",
+  "Reset In-App Ad Views": "重置应用内广告视图",
+  "Reload Window": "重载窗口",
+  "Toggle Developer Tools": "切换开发者工具",
+  "Developer: Open Logs Folder": "开发者：打开日志文件夹",
+  "Developer: Reveal User Data Folder": "开发者：显示用户数据文件夹",
+  "UI Font Size": "界面字号",
+  "Upgrade your plan": "升级你的套餐",
+  "Meet Grok Bot": "认识 Grok Bot",
+  "Get Grok Bot": "获取 Grok Bot",
+  "Search Plugins, Skills, MCPs...": "搜索插件、技能、MCP...",
+  "Browse Marketplace": "浏览市场",
+  "New MCP Server": "新建 MCP 服务器",
+  "Add a Custom MCP Server": "添加自定义 MCP 服务器"
  },
  "anchor": {
   "Align on implementation before writing code": "先对齐实现方案再写代码",
@@ -566,7 +586,16 @@
   "title:\"General\"": "title:\"常规\"",
   "title:\"Security\"": "title:\"安全\"",
   "Search Cursor settings\u2026": "搜索 Cursor 设置…",
-  "`On ${": "`在 ${"
+  "`On ${": "`在 ${",
+  "AI teammates you can give real work to": "可以托付真实工作的 AI 队友",
+  "Automate repetitive tasks with always-on agents and configure Cursor's built-in agents for your team.": "使用常驻智能体自动化重复性任务，并为你的团队配置 Cursor 内置智能体",
+  "Upgrade for Automations, unlimited completions, MAX Mode, and more": "升级以解锁自动化、无限补全、MAX 模式等更多功能",
+  "label:\"Subagents\"": "label:\"子智能体\"",
+  "label:\"Needs Attention\"": "label:\"需要注意\"",
+  "title:\"Needs Attention\"": "title:\"需要注意\"",
+  "\"Submit with Ctrl + Enter\"": "\"使用 Ctrl + Enter 提交\"",
+  "\"Error - Show Output\"": "\"错误 - 显示输出\"",
+  "`Search ${": "`搜索 ${"
  },
- "version": "5.0"
+ "version": "6.0"
 }
